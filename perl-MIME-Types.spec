@@ -2,8 +2,8 @@
 %define	name	perl-%{module}
 %define	modprefix MIME
 
-%define	version	1.24
-%define	release %mkrel 2
+%define	version	1.25
+%define	release %mkrel 1
 
 Name:		%{name}
 Summary:	MIME::Types module for Perl
