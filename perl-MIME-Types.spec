@@ -1,5 +1,5 @@
 %define	upstream_name	 MIME-Types
-%define	upstream_version 1.27
+%define	upstream_version 1.28
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
@@ -9,12 +9,13 @@ Summary:	MIME::Types module for Perl
 License:	GPL
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}/
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/MIME/%{upstream_name}-%{upstream_version}.tar.bz2
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/MIME/%{upstream_name}-%{upstream_version}.tar.gz
 
 %if %{mdkversion} < 1010
 BuildRequires:	perl-devel
 %endif
 BuildRequires:	perl(Test::More) >= 0.47
+
 Buildarch:	noarch
 Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}
 
