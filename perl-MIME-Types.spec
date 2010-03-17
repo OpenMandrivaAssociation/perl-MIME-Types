@@ -1,5 +1,5 @@
 %define	upstream_name	 MIME-Types
-%define	upstream_version 1.28
+%define upstream_version 1.29
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
@@ -29,10 +29,10 @@ is long but not complete.
 
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
-%{__make}
+%make
 
 %check
-%{__make} test
+%make test
 
 %install
 rm -rf %{buildroot}
