@@ -1,9 +1,9 @@
 %define	upstream_name	 MIME-Types
-%define upstream_version 1.30
+%define upstream_version 1.31
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:	MIME::Types module for Perl
 License:	GPL
