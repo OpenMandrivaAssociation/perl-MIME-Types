@@ -1,5 +1,5 @@
 %define	modname	MIME-Types
-%define modver 2.02
+%define modver 2.04
 
 Summary:	MIME::Types module for Perl
 Name:		perl-%{modname}
@@ -35,5 +35,6 @@ is long but not complete.
 %doc README ChangeLog
 %{perl_vendorlib}/MIME
 %{_mandir}/man3/*
+
 
 
