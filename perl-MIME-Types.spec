@@ -1,14 +1,14 @@
 %define	modname	MIME-Types
-%define modver 2.04
+%define modver 2.09
 
 Summary:	MIME::Types module for Perl
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	4
+Release:	1
 License:	GPLv2
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}/
-Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/MIME/MIME-Types-%{modver}.tar.gz
+Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/MIME/%{modname}-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl-devel
 BuildRequires:	perl(Test::More) >= 0.47
@@ -35,6 +35,3 @@ is long but not complete.
 %doc README ChangeLog
 %{perl_vendorlib}/MIME
 %{_mandir}/man3/*
-
-
-
