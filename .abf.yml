@@ -1,6 +1,2 @@
-removed_sources:
-  MIME-Types-1.31.tar.gz: eecbf7bb756f9461b0ec9acae7a15f579fe830f6
-  MIME-Types-2.02.tar.gz: 81874c6b583a11aa11f3bcecde9f48212e61451d
-  MIME-Types-2.04.tar.gz: 6701a7aa2e3fd12e54be2f31094704f3d7767d8f
 sources:
-  MIME-Types-2.09.tar.gz: c58c706cc9a6bb5481a585eee6b85b582ba480cb
+  MIME-Types-2.17.tar.gz: a79b9ee132fc12af75df85b987332e1c9799b844
