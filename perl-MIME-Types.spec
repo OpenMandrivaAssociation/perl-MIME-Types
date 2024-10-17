@@ -9,7 +9,7 @@ Summary:	MIME::Types module for Perl
 
 License:	GPL
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}/
+Url:		https://search.cpan.org/dist/%{upstream_name}/
 Source0:	http://search.cpan.org/CPAN/authors/id/M/MA/MARKOV/MIME-Types-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
