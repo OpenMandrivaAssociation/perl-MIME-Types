@@ -1,16 +1,16 @@
 %define	upstream_name	 MIME-Types
-%define upstream_version 2.17
+%define upstream_version 2.30
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	MIME::Types module for Perl
 
 License:	GPL
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}/
-Source0:	http://search.cpan.org/CPAN/authors/id/M/MA/MARKOV/MIME-Types-%{upstream_version}.tar.gz
+Url:		https://github.com/markov2/perl5-MIME-Types
+Source0:	https://cpan.metacpan.org/authors/id/M/MA/MARKOV/MIME-Types-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
