@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%{upstream_version}
-Release:	1
+Release:	2
 
 Summary:	MIME::Types module for Perl
 
@@ -38,6 +38,6 @@ is long but not complete.
 rm -rf %{buildroot}%{perl_vendorlib}/MojoX
 
 %files
-%doc README ChangeLog
+%doc README.md ChangeLog
 %{perl_vendorlib}/MIME
 %{_mandir}/*/*
